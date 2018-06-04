@@ -1,5 +1,4 @@
 # friendlytime.js
-[![Build Status](https://www.travis-ci.org/LeachZhou/friendlytimejs.svg?branch=master)](https://www.travis-ci.org/LeachZhou/friendlytimejs)
 
 > 友好时间的插件，将一个时间字符串格式（如2018-05-31 11:30:00）显示友好时间（如，1分钟内，2分钟前等等）。
 
