@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+  - "8"
+  - "6"
+cache:
+  directories:
+    - node_modules
+
+script:
+  - npm version patch
+  # - npm version minor
+  # - npm version major
+  - npm publish
+
+branches:
+  only:
+    - master
