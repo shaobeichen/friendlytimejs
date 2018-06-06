@@ -18,3 +18,19 @@ import friendlytimejs from "friendlytimejs";
  */
 friendlytimejs.FriendlyTime('2018-06-04 13:20:00','2018-06-04 13:25:00');
 ```
+推荐搭配使用[day.js](https://github.com/iamkun/dayjs)。如果你使用了day.js，那么过程即为
+- 安装
+```console
+npm i friendlytimejs --save
+npm i dayjs --save
+```
+- 使用
+```js
+import dayjs from "dayjs";
+import friendlytimejs from "friendlytimejs";
+/**
+ * @param str 指定的时间字符串，如yyyy-MM-dd HH:mm:ss
+ * @param now 当前时间，允许时间戳，GMT时间。
+ */
+friendlytimejs.FriendlyTime('2018-06-04 13:20:00',dayjs());
+```
